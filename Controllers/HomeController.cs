@@ -18,7 +18,7 @@ namespace project_asp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Cart()
         {
             return View();
         }
