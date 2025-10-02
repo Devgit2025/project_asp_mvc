@@ -16,5 +16,7 @@ namespace project_asp.Data
 
         public DbSet<OrderShop> tb_OrderShop { get; set; }
 
+        public DbSet<OrderDetail> tb_OrderDetail { get; set; }
+
     }
 }
