@@ -13,7 +13,7 @@
 
 
             <div class="modal-body p-5 pt-0">
-                <form class="" action="" method="post">
+                <form asp-controller="Custtomer" asp-action="Register" method="post">
                     <div class="form-floating mb-3">
                         <input type="text" name="fullname" class="form-control rounded-3" id="floatingInput" placeholder="Fullname" fdprocessedid="hmc45j" require>
                         <label for="floatingInput">Full name</label>
@@ -32,11 +32,11 @@
                         <label for="floatingPassword">Password</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="tel" name="tel" class="form-control rounded-3" id="floatingInput" placeholder="Tel." fdprocessedid="hmc45j" require>
+                        <input type="tel" name="tel" class="form-control rounded-3" id="floatingInput" placeholder="Tel."require>
                         <label for="floatingInput">Tel.</label>
                     </div>
 
-                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" fdprocessedid="w9zzz">Resigter</button>
+                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Resigter</button>
                     <small class="text-end">Back to <a asp-controller="Home" asp-action="Login">Login.</a></small>
                     <hr class="my-4">
                 </form>
